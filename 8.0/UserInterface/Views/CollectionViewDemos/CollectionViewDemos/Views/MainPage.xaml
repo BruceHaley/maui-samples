@@ -26,6 +26,10 @@
                           Detail="DataTemplate"
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type views:VerticalListPage}" />
+                <TextCell Text="Scroll mode when adding items <<<<<<<<<<<<<<<<"
+                          Detail="ItemsUpdatingScrollMode <<<<<<<<<<<<<<<<"
+                          Command="{Binding  NavigateCommand}"
+                          CommandParameter="{x:Type views:ItemsUpdatingScrollModePage}" />
                 <TextCell Text="Horizontal list"
                           Detail="DataTemplate"
                           Command="{Binding NavigateCommand}"
