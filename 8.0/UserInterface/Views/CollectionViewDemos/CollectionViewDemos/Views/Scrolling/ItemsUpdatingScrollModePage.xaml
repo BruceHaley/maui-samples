@@ -22,6 +22,7 @@
                         <Editor
                             Text="{Binding Details}"
                             Margin="5"
+                            TextColor="LightGray"
                             BackgroundColor="DarkRed"
                             FontAttributes="Bold" />
                 </DataTemplate>
