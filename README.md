@@ -1,4 +1,15 @@
-# .NET MAUI Samples
+# .NET MAUI Samples Modified for Bug Repro
+
+This code repros the bug [[Android] CollectionView + HeightRequest + Editor dynamic sizing is broken #22651](https://github.com/dotnet/maui/issues/22651).
+
+To view the bug:
+
+1. Build the [CollectionViewDemos](https://github.com/BruceHaley/maui-samples/blob/main/8.0/UserInterface/Views/CollectionViewDemos/CollectionViewDemos.sln) project.
+1. Run it on an Android device.
+1. Pick the menu item, "Scroll mode when adding items". Wait for the list to finish populating.
+1. scroll the list up and down a few times.
+   
+# Samples
 
 Samples built with .NET Multi-platform App UI (.NET MAUI).
 
